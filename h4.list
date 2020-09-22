@@ -4,6 +4,6 @@ DOMAIN-KEYWORD,xbox
 DOMAIN-KEYWORD,forzamotor
 #DOMAIN-SUFFIX,asia.smartscreen-prod.microsoft.com
 #DOMAIN-SUFFIX,collections.md.mp.microsoft.com
-DOMAIN-SUFFIX,login.live.com
+#DOMAIN-SUFFIX,login.live.com
 #DOMAIN-SUFFIX,licensing.mp.microsoft.com
 DOMAIN-SUFFIX,mixer.com
