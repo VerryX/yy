@@ -14,6 +14,7 @@ dns:
     - tls://dns.pub
     - tls://dns.alidns.com  
   enhanced-mode: fake-ip
+{% if local.clash.new_field_name == "true" %}
 proxies: ~
 proxy-groups: ~
 rules: ~
