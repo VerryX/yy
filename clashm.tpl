@@ -6,12 +6,12 @@ external-controller: 127.0.0.1:9090
 dns:
   enable: true
   enhanced-mode: fake-ip  
-  default-nameserver:
+  nameserver:
     - 119.29.29.29
     - 223.5.5.5
-  nameserver:
-    - tls://dns.pub
-    - tls://dns.alidns.com  
+  ;nameserver:
+    ;- tls://dns.pub
+    ;- tls://dns.alidns.com  
   fake-ip-filter:
     - "*.lan"
     - stun.*.*.*
