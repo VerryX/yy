@@ -8,7 +8,7 @@ dns:
   enhanced-mode: fake-ip  
   nameserver:
     - 119.29.29.29
-    - 208.67.222.222
+    - 208.67.220.220
 ;- 223.5.5.5
 ;nameserver:
 ;- tls://dns.pub
