@@ -8,7 +8,7 @@ dns:
   enhanced-mode: fake-ip  
   nameserver:
     - 119.28.28.28
-    - 223.6.6.6
+    - 202.96.128.86
 fake-ip-filter:
     - "*.lan"
     - stun.*.*.*
