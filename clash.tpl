@@ -74,8 +74,6 @@ fake-ip-filter:
     - "*.ipv6.microsoft.com"
     - "*.*.xboxlive.com"
 {% if local.clash.new_field_name == "true" %}
-;cfw-latency-timeout: 3000
-;cfw-latency-url: http://cp.cloudflare.com/generate_204
 proxies: ~
 proxy-groups: ~
 rules: ~
