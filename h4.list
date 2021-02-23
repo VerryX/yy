@@ -9,4 +9,4 @@ PROCESS-NAME,XboxApp.exe
 #DOMAIN-SUFFIX,collections.md.mp.microsoft.com
 #DOMAIN-SUFFIX,login.live.com
 #DOMAIN-SUFFIX,licensing.mp.microsoft.com
-DOMAIN-SUFFIX,mixer.com
+#DOMAIN-SUFFIX,mixer.com
