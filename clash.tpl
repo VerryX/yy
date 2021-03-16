@@ -5,7 +5,8 @@ log-level: info
 external-controller: 127.0.0.1:9090
 dns:
   enable: true
-  enhanced-mode: fake-ip  
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.10.0.1/16
   fake-ip-filter:
     - "*.lan"
     - stun.*.*.*
@@ -81,8 +82,6 @@ dns:
   nameserver:
     - 119.29.29.29
     - 223.6.6.6
-  fallback:
-    - https://1.0.0.1/dns-query
 {% if local.clash.new_field_name == "true" %}
 proxies: ~
 proxy-groups: ~
