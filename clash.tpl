@@ -5,6 +5,9 @@ log-level: info
 external-controller: 127.0.0.1:9090
 dns:
   enable: true
+  nameserver:
+    - 119.29.29.29
+    - 223.6.6.6
   enhanced-mode: fake-ip
   fake-ip-range: 198.10.0.1/16
   fake-ip-filter:
@@ -79,9 +82,6 @@ dns:
     - "*.ipv6.microsoft.com"
     - "*.*.xboxlive.com"
     - speedtest.cros.wr.pvp.net
-  nameserver:
-    - 119.29.29.29
-    - 223.6.6.6
 {% if local.clash.new_field_name == "true" %}
 proxies: ~
 proxy-groups: ~
