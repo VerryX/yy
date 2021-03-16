@@ -82,11 +82,6 @@ dns:
     - "*.ipv6.microsoft.com"
     - "*.*.xboxlive.com"
     - speedtest.cros.wr.pvp.net
-  nameserver:
-    - 119.29.29.29
-    - 223.6.6.6
-  fallback:
-    - https://1.0.0.1/dns-query
 {% if local.clash.new_field_name == "true" %}
 proxies: ~
 proxy-groups: ~
