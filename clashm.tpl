@@ -6,9 +6,6 @@ external-controller: 127.0.0.1:9090
 dns:
   enable: true
   enhanced-mode: fake-ip  
-  nameserver:
-    - 119.29.29.29
-    - 223.6.6.6
   fake-ip-filter:
     - "*.lan"
     - stun.*.*.*
@@ -39,6 +36,13 @@ dns:
     - time6.aliyun.com
     - time7.aliyun.com
     - "*.time.edu.cn"
+    - time1.apple.com
+    - time2.apple.com
+    - time3.apple.com
+    - time4.apple.com
+    - time5.apple.com
+    - time6.apple.com
+    - time7.apple.com
     - time1.google.com
     - time2.google.com
     - time3.google.com
@@ -65,7 +69,20 @@ dns:
     - "*.xiami.com"
     - "*.music.migu.cn"
     - music.migu.cn
+    - "*.msftconnecttest.com"
+    - "*.msftncsi.com"
     - localhost.ptlogin2.qq.com
+    - "*.*.*.srv.nintendo.net"
+    - "*.*.stun.playstation.net"
+    - xbox.*.*.microsoft.com
+    - "*.ipv6.microsoft.com"
+    - "*.*.xboxlive.com"
+    - speedtest.cros.wr.pvp.net
+  nameserver:
+    - 119.29.29.29
+    - 223.6.6.6
+  fallback:
+    - https://1.0.0.1/dns-query
 {% if local.clash.new_field_name == "true" %}
 proxies: ~
 proxy-groups: ~
