@@ -3,8 +3,8 @@ DOMAIN-KEYWORD,miui
 DOMAIN-KEYWORD,xiaomi
 DOMAIN-SUFFIX,data.flurry.com
 DOMAIN-SUFFIX,yacd.haishan.me
-DOMAIN-KEYWORD,maxthon
+;DOMAIN-KEYWORD,maxthon
 DOMAIN-SUFFIX,expreview.com
 DOMAIN-SUFFIX,818ps.com
 DOMAIN-SUFFIX,tuguaishou.com
-DOMAIN-SUFFIX,tusij.com
+;DOMAIN-SUFFIX,tusij.com
