@@ -4,6 +4,7 @@ mode: Rule
 log-level: info
 dns:
   enable: true
+  ipv6: false
   nameserver:
     - 119.29.29.29
     - 223.5.5.5
