@@ -4,10 +4,12 @@ mode: Rule
 log-level: info
 dns:
   enable: true
+  ipv6: false
+  listen: 0.0.0.0:53
+  enhanced-mode: redir-host  
   nameserver:
     - 119.29.29.29
     - 223.5.5.5
-  enhanced-mode: fake-ip
   fake-ip-range: 198.10.0.1/16
   fake-ip-filter:
     - "*.lan"
