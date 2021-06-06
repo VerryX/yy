@@ -4,8 +4,8 @@ mode: Rule
 log-level: info
 dns:
   enable: true
-  ipv6: false
   listen: 0.0.0.0:53
+  ipv6: false
   enhanced-mode: fake-ip  
   nameserver:
     - 119.29.29.29
