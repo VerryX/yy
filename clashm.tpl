@@ -9,8 +9,8 @@ dns:
   ipv6: false
   enhanced-mode: fake-ip  
   nameserver:
-    - 119.29.29.29
-    - 223.5.5.5
+    - 223.6.6.6
+    - 1.0.0.1
   fake-ip-range: 198.10.0.1/16
   fake-ip-filter:
     - "*.lan"
