@@ -8,8 +8,8 @@ dns:
   listen: 0.0.0.0:53
   ipv6: false
   enhanced-mode: fake-ip  
-  nameserver:
-    - 223.6.6.6
+  default-nameserver:
+    - 223.5.5.5
     - 1.0.0.1
   fake-ip-range: 198.10.0.1/16
   fake-ip-filter:
@@ -84,6 +84,9 @@ dns:
     - "*.ipv6.microsoft.com"
     - "*.*.xboxlive.com"
     - speedtest.cros.wr.pvp.net
+  nameserver:
+    - https://223.6.6.6/dns-query
+    - https://dns.pub/dns-query    
 {% if local.clash.new_field_name == "true" %}
 proxies: ~
 proxy-groups: ~
