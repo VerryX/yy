@@ -80,9 +80,10 @@ dns:
     - localhost.ptlogin2.qq.com
     - "*.*.*.srv.nintendo.net"
     - "*.*.stun.playstation.net"
-    - xbox.*.*.microsoft.com
-    - "*.ipv6.microsoft.com"
-    - "*.*.xboxlive.com"
+    - "*.forzamotorsport.net"
+    - "*.cloudapp.net"
+    - "*.microsoft.com"
+    - "*.xboxlive.com"
     - speedtest.cros.wr.pvp.net
   nameserver:
     - https://223.6.6.6/dns-query  
