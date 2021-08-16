@@ -6,11 +6,9 @@ external-controller: 0.0.0.0:9090
 dns:
   enable: true
   listen: 0.0.0.0:53
-  ipv6: false
   enhanced-mode: fake-ip  
   default-nameserver:
     - 223.5.5.5
-    - 1.0.0.1
   fake-ip-range: 198.10.0.1/16
   fake-ip-filter:
     - "*.lan"
