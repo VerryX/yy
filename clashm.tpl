@@ -5,7 +5,6 @@ log-level: info
 external-controller: 0.0.0.0:9090
 dns:
   enable: true
-  listen: 0.0.0.0:53
   enhanced-mode: redir-host  
   default-nameserver:
     - 223.5.5.5
