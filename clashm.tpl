@@ -9,7 +9,7 @@ dns:
   default-nameserver:
     - 223.5.5.5
   nameserver:
-    - https://223.6.6.6/dns-query 
+    - https://dns.alidns.com/dns-query
 {% if local.clash.new_field_name == "true" %}
 proxies: ~
 proxy-groups: ~
