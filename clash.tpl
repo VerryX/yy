@@ -84,7 +84,7 @@ dns:
     - "*.xboxlive.com"
     - speedtest.cros.wr.pvp.net
   nameserver:
-    - https://223.6.6.6/dns-query  
+    - https://dns.alidns.com/dns-query  
 {% if local.clash.new_field_name == "true" %}
 proxies: ~
 proxy-groups: ~
