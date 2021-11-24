@@ -6,9 +6,7 @@ external-controller: 0.0.0.0:9090
 dns:
   enable: true
   listen: 0.0.0.0:53
-  enhanced-mode: fake-ip  
-  default-nameserver:
-    - 223.5.5.5
+  enhanced-mode: fake-ip
   fake-ip-range: 198.10.0.1/16
   fake-ip-filter:
     - "*.lan"
@@ -84,7 +82,8 @@ dns:
     - "*.xboxlive.com"
     - speedtest.cros.wr.pvp.net
   nameserver:
-    - https://dns.alidns.com/dns-query
+    - 223.6.6.6
+    - 119.29.29.29
 {% if local.clash.new_field_name == "true" %}
 proxies: ~
 proxy-groups: ~
