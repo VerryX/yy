@@ -82,7 +82,6 @@ dns:
     - "*.xboxlive.com"
     - speedtest.cros.wr.pvp.net
   nameserver:
-    - 223.5.5.5
     - 223.6.6.6
 {% if local.clash.new_field_name == "true" %}
 proxies: ~
