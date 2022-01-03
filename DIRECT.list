@@ -1,6 +1,6 @@
 #DOMAIN-SUFFIX,gvt1.com
 #DOMAIN-SUFFIX,play.googleapis.com
-DOMAIN-SUFFIX,dl.playstation.net
+#DOMAIN-SUFFIX,dl.playstation.net
 DOMAIN-KEYWORD,XLLiveUD.
 DOMAIN-KEYWORD,Thunder.
 DOMAIN-KEYWORD,sandai.
