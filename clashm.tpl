@@ -7,7 +7,9 @@ dns:
   enable: true
   listen: 0.0.0.0:53
   enhanced-mode: fake-ip
-  fake-ip-range: 198.10.0.1/16
+  fake-ip-range: 198.18.0.1/16
+  default-nameserver:
+    - 223.5.5.5
   fake-ip-filter:
     - "*.lan"
     - stun.*.*.*
@@ -82,7 +84,8 @@ dns:
     - "*.xboxlive.com"
     - speedtest.cros.wr.pvp.net
   nameserver:
-    - 223.6.6.6
+    - https://223.6.6.6/dns-query
+    - https://rubyfish.cn/dns-query
 {% if local.clash.new_field_name == "true" %}
 proxies: ~
 proxy-groups: ~
