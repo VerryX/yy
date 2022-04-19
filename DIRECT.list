@@ -1,10 +1,8 @@
 #DOMAIN-SUFFIX,gvt1.com
 #DOMAIN-SUFFIX,play.googleapis.com
 #DOMAIN-SUFFIX,dl.playstation.net
-IP-CIDR,224.0.0.251/32,no-resolve
-IP-CIDR,224.0.0.252/32,no-resolve
-IP-CIDR,239.255.255.250/32,no-resolve
-IP-CIDR,169.254.182.0/24,no-resolve
+IP-CIDR,224.0.0.0/4,no-resolve
+IP-CIDR,169.254.0.0/16,no-resolve 
 DOMAIN-KEYWORD,XLLiveUD.
 DOMAIN-KEYWORD,Thunder.
 DOMAIN-KEYWORD,sandai.
