@@ -2,7 +2,8 @@
 #DOMAIN-SUFFIX,play.googleapis.com
 #DOMAIN-SUFFIX,dl.playstation.net
 IP-CIDR,224.0.0.0/4,no-resolve
-IP-CIDR,169.254.0.0/16,no-resolve 
+IP-CIDR,169.254.0.0/16,no-resolve
+IP-CIDR,255.255.255.255/32,no-resolve
 DOMAIN-KEYWORD,XLLiveUD.
 DOMAIN-KEYWORD,Thunder.
 DOMAIN-KEYWORD,sandai.
