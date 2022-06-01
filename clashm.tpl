@@ -11,7 +11,6 @@ dns:
   nameserver:
     - 223.6.6.6
     - 119.29.29.29
-    - dhcp://en0
   fallback:
     - https://223.6.6.6/dns-query
   fake-ip-filter:
