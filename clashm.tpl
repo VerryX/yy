@@ -10,6 +10,7 @@ dns:
   fake-ip-range: 198.18.0.1/16
   nameserver:
     - 223.6.6.6
+    - 119.29.29.29
     - dhcp://en0
   fallback:
     - https://223.6.6.6/dns-query
