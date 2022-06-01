@@ -6,8 +6,11 @@ external-controller: 0.0.0.0:9090
 dns:
   enable: true
   listen: 0.0.0.0:53
-  enhanced-mode: fake-ip  
+  enhanced-mode: fake-ip
   nameserver:
+    - 223.6.6.6
+    - dhcp://en0
+  fallback:
     - https://223.6.6.6/dns-query
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
