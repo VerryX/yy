@@ -10,8 +10,6 @@ dns:
   nameserver:
     - 223.6.6.6
     - 119.29.29.29
-  fallback:
-    - https://223.6.6.6/dns-query
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
     - "*.lan"
@@ -86,6 +84,8 @@ dns:
     - "*.*.xboxlive.com"
     - speedtest.cros.wr.pvp.net
     - "*.forzamotorsport.net"
+  fallback:
+    - https://223.6.6.6/dns-query    
   fallback-filter:
     geoip: true
     ipcidr:
