@@ -86,6 +86,22 @@ dns:
     - "*.*.xboxlive.com"
     - speedtest.cros.wr.pvp.net
     - "*.forzamotorsport.net"
+  fallback-filter:
+    geoip: true
+    ipcidr:
+      - 240.0.0.0/4
+      - 0.0.0.0/32
+      - 127.0.0.1/32
+    domain:
+      - +.google.com
+      - +.facebook.com
+      - +.twitter.com
+      - +.youtube.com
+      - +.xn--ngstr-lra8j.com
+      - +.google.cn
+      - +.googleapis.cn
+      - +.googleapis.com
+      - +.gvt1.com    
 {% if local.clash.new_field_name == "true" %}
 proxies: ~
 proxy-groups: ~
