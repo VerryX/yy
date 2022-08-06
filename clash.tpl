@@ -5,7 +5,7 @@ log-level: info
 external-controller: 0.0.0.0:9090
 dns:
   enable: true
-  listen: 0.0.0.0:8853
+  listen: 0.0.0.0:53
   enhanced-mode: fake-ip
   nameserver:
     - 223.6.6.6
