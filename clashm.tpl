@@ -81,10 +81,9 @@ dns:
     - localhost.ptlogin2.qq.com
     - "*.*.*.srv.nintendo.net"
     - "*.*.stun.playstation.net"
-    - "*.forzamotorsport.net"
-    - "*.cloudapp.net"
-    - "*.microsoft.com"
-    - "*.xboxlive.com"
+    - xbox.*.*.microsoft.com
+    - "*.ipv6.microsoft.com"
+    - "*.*.xboxlive.com"
     - speedtest.cros.wr.pvp.net
 {% if local.clash.new_field_name == "true" %}
 proxies: ~
