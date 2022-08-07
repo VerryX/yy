@@ -13,6 +13,7 @@ dns:
     - 119.29.29.29
     - 1.2.4.8
   fallback:
+    - https://146.112.41.2/dns-query 
     - https://223.6.6.6/dns-query    
   fallback-filter:
     geoip: true
