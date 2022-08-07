@@ -11,6 +11,7 @@ dns:
   nameserver:
     - 223.6.6.6
     - 119.29.29.29
+    - 1.2.4.8
   #fake-ip-filter:
     - "*.lan"
     - stun.*.*.*
