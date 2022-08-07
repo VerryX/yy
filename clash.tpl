@@ -86,6 +86,7 @@ dns:
     - speedtest.cros.wr.pvp.net
     - "*.forzamotorsport.net"
   fallback:
+    - https://146.112.41.2/dns-query
     - https://223.6.6.6/dns-query    
   fallback-filter:
     geoip: true
