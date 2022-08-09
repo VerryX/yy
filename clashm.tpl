@@ -7,7 +7,6 @@ dns:
   enable: true
   listen: 127.0.0.1:8853
   enhanced-mode: fake-ip
-  #fake-ip-range: 198.18.0.1/16
   nameserver:
     - 223.6.6.6
     - 119.29.29.29
