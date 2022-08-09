@@ -17,6 +17,7 @@ dns:
     - https://223.6.6.6/dns-query    
   fallback-filter:
     geoip: true
+    geoip-code: CN
     ipcidr:
       - 240.0.0.0/4
       - 0.0.0.0/32
