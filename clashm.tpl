@@ -12,6 +12,8 @@ dns:
     - 223.5.5.5
     - 119.29.29.29
     - 1.2.4.8
+  default-nameserver:
+    - 223.5.5.5
   fallback:
     - https://146.112.41.2/dns-query 
     - https://223.6.6.6/dns-query    
