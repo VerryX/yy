@@ -3,10 +3,16 @@ allow-lan: false
 mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
+hosts:
+  services.googleapis.cn: 142.250.196.131
+  www.google.cn: 142.250.196.131
 dns:
   enable: true
+  listen: 127.0.0.1:8853
   ipv6: false
   enhanced-mode: fake-ip
+  default-nameserver:
+    - 223.5.5.5
   nameserver:
     - 223.5.5.5
     - 119.29.29.29
@@ -84,6 +90,47 @@ dns:
     - "*.*.xboxlive.com"
     - speedtest.cros.wr.pvp.net
     - "*.forzamotorsport.net"
+  fallback:
+    - https://146.112.41.2/dns-query
+    - https://223.6.6.6/dns-query
+  fallback-filter:
+    geoip: true
+    ipcidr:
+      - 240.0.0.0/4
+      - 0.0.0.0/32
+      - 127.0.0.1/32
+    domain:
+      - +.facebook.com
+      - +.twitter.com
+      - +.google.com
+      - +.googleapis.com
+      - +.google.cn
+      - +.googleapis.cn
+      - +.xn--ngstr-lra8j.com
+      - +.googlevideo.com
+      - +.gvt1.com
+      - +.gmail.com
+      - +.youtube.com
+      - +.youtu.be
+      - +.gvt0.com
+      - +.gvt2.com
+      - +.gvt3.com
+      - +.gstatic.com
+      - +.265.com
+      - +.2mdn.net
+      - +.app-measurement.com
+      - +.c.admob.com
+      - +.clickserve.dartsearch.net
+      - +.crl.pki.goog
+      - +.doubleclick.net
+      - +.firebase-settings.crashlytics.com
+      - +.google-analytics.com
+      - +.googleadservices.com
+      - +.googleanalytics.com
+      - +.googleoptimize.com
+      - +.googlesyndication.com
+      - +.googletagmanager.com
+      - +.googletagservices.com  
 {% if local.clash.new_field_name == "true" %}
 proxies: ~
 proxy-groups: ~
