@@ -11,8 +11,6 @@ dns:
     - 223.5.5.5
     - 119.29.29.29
     - 1.2.4.8
-  default-nameserver:
-    - 223.5.5.5
   fake-ip-filter:
     - "*.lan"
     - stun.*.*.*
