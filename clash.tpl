@@ -12,11 +12,9 @@ dns:
   listen: 127.0.0.1:8853
   ipv6: false
   enhanced-mode: fake-ip
-  default-nameserver:
-    - 223.5.5.5
   nameserver:
-    - 223.5.5.5
-    - 119.29.29.29
+    - 119.29.29.29  
+    - 223.6.6.6
     - 1.2.4.8
   fake-ip-filter:
     - "*.lan"
