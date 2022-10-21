@@ -26,9 +26,6 @@ dns:
     - "*.local"
     - "*.home.arpa"
     - time.*.com
-    - time.*.gov
-    - time.*.edu.cn
-    - time.*.apple.com
     - time1.*.com
     - time2.*.com
     - time3.*.com
@@ -44,7 +41,6 @@ dns:
     - ntp5.*.com
     - ntp6.*.com
     - ntp7.*.com
-    - "*.time.edu.cn"
     - "*.ntp.org.cn"
     - +.pool.ntp.org
     - time1.cloud.tencent.com
@@ -78,14 +74,8 @@ dns:
     - localhost.sec.qq.com
     - +.srv.nintendo.net
     - +.stun.playstation.net
-    - xbox.*.microsoft.com
-    - xnotify.xboxlive.com
     - +.ipv6.microsoft.com
     - +.battlenet.com.cn
-    - +.wotgame.cn
-    - +.wggames.cn
-    - +.wowsgame.cn
-    - +.wargaming.net
     - proxy.golang.org
     - stun.*.*
     - stun.*.*.*
@@ -95,13 +85,6 @@ dns:
     - heartbeat.belkin.com
     - "*.linksys.com"
     - "*.linksyssmartwifi.com"
-    - "*.router.asus.com"
-    - mesu.apple.com
-    - swscan.apple.com
-    - swquery.apple.com
-    - swdownload.apple.com
-    - swcdn.apple.com
-    - swdist.apple.com
     - lens.l.google.com
     - stun.l.google.com
     - "*.square-enix.com"
@@ -112,7 +95,6 @@ dns:
     - "*.mcdn.bilivideo.cn"
     - +.media.dssott.com
     - +.pvp.net
-    - "*.forzamotorsport.net"
   fallback:
     - https://146.112.41.2/dns-query
     - https://223.6.6.6/dns-query
