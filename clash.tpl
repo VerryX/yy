@@ -9,7 +9,7 @@ hosts:
   www.google.cn: 142.250.196.131
 dns:
   enable: true
-  listen: 127.0.0.1:8853
+  listen: 127.0.0.1:53
   ipv6: false
   enhanced-mode: fake-ip
   nameserver:
