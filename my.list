@@ -2,6 +2,7 @@
 PROCESS-NAME,qbittorrent.exe
 PROCESS-NAME,baidunetdisk.exe
 PROCESS-NAME,baidunetdiskhost.exe
+PROCESS-NAME,FileZilla Server.exe
 DOMAIN-KEYWORD,miui
 DOMAIN-KEYWORD,xiaomi
 DOMAIN-KEYWORD,flurry
