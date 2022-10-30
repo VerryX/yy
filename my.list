@@ -1,5 +1,7 @@
 # > 自用
 PROCESS-NAME,qbittorrent.exe
+PROCESS-NAME,baidunetdisk.exe
+PROCESS-NAME,baidunetdiskhost.exe
 DOMAIN-KEYWORD,miui
 DOMAIN-KEYWORD,xiaomi
 DOMAIN-KEYWORD,flurry
