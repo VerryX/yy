@@ -1,5 +1,6 @@
-#PROCESS-NAME,Emby.Theater.exe
-DOMAIN-KEYWORD,emby
-DOMAIN-KEYWORD,jmsooo
-IP-CIDR,104.238.220.90/32,no-resolve
-DOMAIN-SUFFIX,mb3admin.com
+PROCESS-NAME,electron.exe
+PROCESS-NAME,Emby.Theater.exe
+#DOMAIN-KEYWORD,emby
+#DOMAIN-KEYWORD,jmsooo
+#IP-CIDR,104.238.220.90/32,no-resolve
+#DOMAIN-SUFFIX,mb3admin.com
