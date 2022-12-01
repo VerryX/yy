@@ -1,13 +1,11 @@
 #地平线 TUN模式
-PROCESS-NAME,ForzaHorizon5.exe
-PROCESS-NAME,ForzaHorizon4.exe
+#PROCESS-NAME,ForzaHorizon5.exe
+#PROCESS-NAME,ForzaHorizon4.exe
 #PROCESS-NAME,XboxApp.exe
 #DOMAIN-SUFFIX,displaycatalog.mp.microsoft.com
-DOMAIN-KEYWORD,xbox
+#DOMAIN-SUFFIX,collections.md.mp.microsoft.com
+DOMAIN-KEYWORD,xboxlive
 #DOMAIN-KEYWORD,xblcxplatqos
 DOMAIN-KEYWORD,forza
-#DOMAIN-SUFFIX,asia.smartscreen-prod.microsoft.com
-#DOMAIN-SUFFIX,collections.md.mp.microsoft.com
-#DOMAIN-SUFFIX,login.live.com
-#DOMAIN-SUFFIX,licensing.mp.microsoft.com
 DOMAIN-SUFFIX,mixer.com
+DOMAIN-KEYWORD,playfabapi
