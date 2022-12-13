@@ -5,6 +5,7 @@ PROCESS-NAME,com.instagram.android
 PROCESS-NAME,com.google.android.printservice.recommendation
 PROCESS-NAME,com.google.android.apps.googlevoice
 PROCESS-NAME,com.google.android.marvin.talkback
+PROCESS-NAME,com.google.android.apps.translate
 PROCESS-NAME,com.nytimes.cn
 PROCESS-NAME,com.valvesoftware.android.steam.community
 PROCESS-NAME,com.twitter.android
