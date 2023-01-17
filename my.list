@@ -1,4 +1,8 @@
 # > 自用
+PROCESS-NAME,vmnat.exe
+PROCESS-NAME,vmnetdhcp.exe
+PROCESS-NAME,vmware-authd.exe
+PROCESS-NAME,vmware-hostd.exe
 PROCESS-NAME,qbittorrent.exe
 PROCESS-NAME,baidunetdisk.exe
 PROCESS-NAME,baidunetdiskhost.exe
