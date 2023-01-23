@@ -12,7 +12,6 @@ PROCESS-NAME,com.valvesoftware.android.steam.community
 PROCESS-NAME,com.twitter.android
 PROCESS-NAME,com.google.android.ext.services
 PROCESS-NAME,com.apkpure.aegon
-PROCESS-NAME,com.android.vending
 PROCESS-NAME,mozilla.lockbox
 PROCESS-NAME,com.google.android.syncadapters.contacts
 PROCESS-NAME,com.google.android.gm
