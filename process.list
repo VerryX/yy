@@ -1,3 +1,9 @@
+PROCESS-NAME,WeChat.exe
+PROCESS-NAME,WeChatAppEx.exe
+PROCESS-NAME,WechatBrowser.exe
+PROCESS-NAME,WeChatOCR.exe
+PROCESS-NAME,WeChatPlayer.exe
+PROCESS-NAME,WeChatUtility.exe
 PROCESS-NAME,vmnat.exe
 PROCESS-NAME,vmnetdhcp.exe
 PROCESS-NAME,vmware-authd.exe
@@ -8,3 +14,5 @@ PROCESS-NAME,qbittorrent.exe
 PROCESS-NAME,baidunetdisk.exe
 PROCESS-NAME,baidunetdiskhost.exe
 PROCESS-NAME,FileZilla Server.exe
+PROCESS-NAME,wps.exe
+PROCESS-NAME,wpscloudsvr.exe
