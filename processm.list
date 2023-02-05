@@ -20,4 +20,5 @@ PROCESS-NAME,com.google.android.apps.authenticator2
 PROCESS-NAME,com.google.android.configupdater
 PROCESS-NAME,com.ogqcorp.bgh
 PROCESS-NAME,com.google.android.gsf
+PROCESS-NAME,com.microsoft.office.onenote
 #PROCESS-NAME,com.netflix.mediaclient
