@@ -1,6 +1,7 @@
 PROCESS-NAME,com.android.vending
 PROCESS-NAME,rthk.news
 PROCESS-NAME,com.azure.authenticator
+PROCESS-NAME,com.google.android.googlequicksearchbox
 PROCESS-NAME,com.google.android.gms
 PROCESS-NAME,com.instagram.android
 PROCESS-NAME,com.google.android.printservice.recommendation
