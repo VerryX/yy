@@ -1,17 +1,15 @@
 PROCESS-NAME,com.android.vending
 PROCESS-NAME,rthk.news
 PROCESS-NAME,com.azure.authenticator
+PROCESS-NAME,com.microsoft.bing
 PROCESS-NAME,com.google.android.googlequicksearchbox
 PROCESS-NAME,com.google.android.gms
 PROCESS-NAME,com.instagram.android
-PROCESS-NAME,com.google.android.printservice.recommendation
 PROCESS-NAME,com.google.android.apps.googlevoice
-PROCESS-NAME,com.google.android.marvin.talkback
 PROCESS-NAME,com.google.android.apps.translate
 PROCESS-NAME,com.nytimes.cn
 PROCESS-NAME,com.valvesoftware.android.steam.community
 PROCESS-NAME,com.twitter.android
-PROCESS-NAME,com.google.android.ext.services
 PROCESS-NAME,com.apkpure.aegon
 PROCESS-NAME,mozilla.lockbox
 PROCESS-NAME,com.google.android.syncadapters.contacts
@@ -21,5 +19,5 @@ PROCESS-NAME,com.google.android.apps.authenticator2
 PROCESS-NAME,com.google.android.configupdater
 PROCESS-NAME,com.ogqcorp.bgh
 PROCESS-NAME,com.google.android.gsf
-PROCESS-NAME,com.microsoft.office.onenote
+#PROCESS-NAME,com.microsoft.office.onenote
 #PROCESS-NAME,com.netflix.mediaclient
