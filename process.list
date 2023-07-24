@@ -13,7 +13,7 @@ PROCESS-NAME,DownloadSDKServer.exe
 PROCESS-NAME,qbittorrent.exe
 PROCESS-NAME,baidunetdisk.exe
 PROCESS-NAME,baidunetdiskhost.exe
-PROCESS-NAME,FileZilla Server.exe
+#PROCESS-NAME,FileZilla Server.exe
 PROCESS-NAME,SunloginClient.exe
-PROCESS-NAME,wps.exe
-PROCESS-NAME,wpscloudsvr.exe
+#PROCESS-NAME,wps.exe
+#PROCESS-NAME,wpscloudsvr.exe
