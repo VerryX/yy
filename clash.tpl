@@ -1,16 +1,18 @@
-mixed-port: 7890
+ mixed-port: 7890
 allow-lan: false
 mode: Rule
 log-level: info
-external-controller: 0.0.0.0:9090
 ipv6: false
+external-controller: 0.0.0.0:9090
+clash-for-android:
+  append-system-dns: false
 dns:
   enable: true
   listen: 127.0.0.1:8853
   ipv6: false
   enhanced-mode: fake-ip
   nameserver:
-    - 119.29.29.29  
+    - 119.29.29.29
     - 223.6.6.6
     - 1.2.4.8
   fake-ip-filter:
@@ -103,7 +105,7 @@ dns:
       - +.google.cn
       - +.googleapis.cn
       - +.googleapis.com
-      - +.gvt1.com    
+      - +.gvt1.com
 {% if local.clash.new_field_name == "true" %}
 proxies: ~
 proxy-groups: ~
