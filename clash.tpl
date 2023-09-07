@@ -4,51 +4,56 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 ipv6: false
-hosts:
-  services.googleapis.cn: 142.250.196.131
-  www.google.cn: 142.250.196.131
 dns:
   enable: true
-  listen: 127.0.0.1:53
+  listen: 127.0.0.1:8853
   ipv6: false
   enhanced-mode: fake-ip
   nameserver:
     - 119.29.29.29  
     - 223.6.6.6
     - 1.2.4.8
-# - 4.2.2.1
   fake-ip-filter:
     - "*.lan"
-    - "*.localdomain"
-    - "*.example"
-    - "*.invalid"
-    - "*.localhost"
-    - "*.test"
-    - "*.local"
-    - "*.home.arpa"
-    - time.*.com
-    - time.*.gov
-    - time.*.edu.cn
-    - time.*.apple.com
-    - time1.*.com
-    - time2.*.com
-    - time3.*.com
-    - time4.*.com
-    - time5.*.com
-    - time6.*.com
-    - time7.*.com
-    - ntp.*.com
-    - ntp1.*.com
-    - ntp2.*.com
-    - ntp3.*.com
-    - ntp4.*.com
-    - ntp5.*.com
-    - ntp6.*.com
-    - ntp7.*.com
-    - "*.time.edu.cn"
+    - stun.*.*.*
+    - stun.*.*
+    - time.windows.com
+    - time.nist.gov
+    - time.apple.com
+    - time.asia.apple.com
     - "*.ntp.org.cn"
-    - +.pool.ntp.org
+    - "*.openwrt.pool.ntp.org"
     - time1.cloud.tencent.com
+    - time.ustc.edu.cn
+    - pool.ntp.org
+    - ntp.ubuntu.com
+    - ntp.aliyun.com
+    - ntp1.aliyun.com
+    - ntp2.aliyun.com
+    - ntp3.aliyun.com
+    - ntp4.aliyun.com
+    - ntp5.aliyun.com
+    - ntp6.aliyun.com
+    - ntp7.aliyun.com
+    - time1.aliyun.com
+    - time2.aliyun.com
+    - time3.aliyun.com
+    - time4.aliyun.com
+    - time5.aliyun.com
+    - time6.aliyun.com
+    - time7.aliyun.com
+    - "*.time.edu.cn"
+    - time1.apple.com
+    - time2.apple.com
+    - time3.apple.com
+    - time4.apple.com
+    - time5.apple.com
+    - time6.apple.com
+    - time7.apple.com
+    - time1.google.com
+    - time2.google.com
+    - time3.google.com
+    - time4.google.com
     - music.163.com
     - "*.music.163.com"
     - "*.126.net"
@@ -71,49 +76,15 @@ dns:
     - "*.xiami.com"
     - "*.music.migu.cn"
     - music.migu.cn
-    - +.msftconnecttest.com
-    - +.msftncsi.com
-    - msftconnecttest.com
-    - msftncsi.com
+    - "*.msftconnecttest.com"
+    - "*.msftncsi.com"
     - localhost.ptlogin2.qq.com
-    - localhost.sec.qq.com
-    - +.srv.nintendo.net
-    - +.stun.playstation.net
-    - xbox.*.microsoft.com
-    - xnotify.xboxlive.com
-    - +.ipv6.microsoft.com
-    - +.battlenet.com.cn
-    - +.wotgame.cn
-    - +.wggames.cn
-    - +.wowsgame.cn
-    - +.wargaming.net
-    - proxy.golang.org
-    - stun.*.*
-    - stun.*.*.*
-    - +.stun.*.*
-    - +.stun.*.*.*
-    - +.stun.*.*.*.*
-    - heartbeat.belkin.com
-    - "*.linksys.com"
-    - "*.linksyssmartwifi.com"
-    - "*.router.asus.com"
-    - mesu.apple.com
-    - swscan.apple.com
-    - swquery.apple.com
-    - swdownload.apple.com
-    - swcdn.apple.com
-    - swdist.apple.com
-    - lens.l.google.com
-    - stun.l.google.com
-    - "*.square-enix.com"
-    - "*.finalfantasyxiv.com"
-    - "*.ffxiv.com"
-    - "*.ff14.sdo.com"
-    - ff.dorado.sdo.com
-    - "*.mcdn.bilivideo.cn"
-    - +.media.dssott.com
-    - +.pvp.net
-    - "*.forzamotorsport.net"
+    - "*.*.*.srv.nintendo.net"
+    - "*.*.stun.playstation.net"
+    - xbox.*.*.microsoft.com
+    - "*.ipv6.microsoft.com"
+    - "*.*.xboxlive.com"
+    - speedtest.cros.wr.pvp.net
   fallback:
     - https://146.112.41.2/dns-query
     - https://223.6.6.6/dns-query
@@ -124,37 +95,15 @@ dns:
       - 0.0.0.0/32
       - 127.0.0.1/32
     domain:
+      - +.google.com
       - +.facebook.com
       - +.twitter.com
-      - +.google.com
-      - +.googleapis.com
+      - +.youtube.com
+      - +.xn--ngstr-lra8j.com
       - +.google.cn
       - +.googleapis.cn
-      - +.xn--ngstr-lra8j.com
-      - +.googlevideo.com
-      - +.gvt1.com
-      - +.gmail.com
-      - +.youtube.com
-      - +.youtu.be
-      - +.gvt0.com
-      - +.gvt2.com
-      - +.gvt3.com
-      - +.gstatic.com
-      - +.265.com
-      - +.2mdn.net
-      - +.app-measurement.com
-      - +.c.admob.com
-      - +.clickserve.dartsearch.net
-      - +.crl.pki.goog
-      - +.doubleclick.net
-      - +.firebase-settings.crashlytics.com
-      - +.google-analytics.com
-      - +.googleadservices.com
-      - +.googleanalytics.com
-      - +.googleoptimize.com
-      - +.googlesyndication.com
-      - +.googletagmanager.com
-      - +.googletagservices.com  
+      - +.googleapis.com
+      - +.gvt1.com    
 {% if local.clash.new_field_name == "true" %}
 proxies: ~
 proxy-groups: ~
