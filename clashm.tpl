@@ -105,7 +105,7 @@ dns:
       - +.google.cn
       - +.googleapis.cn
       - +.googleapis.com
-      - +.gvt1.com    
+      - +.gvt1.com
 {% if local.clash.new_field_name == "true" %}
 proxies: ~
 proxy-groups: ~
