@@ -3,6 +3,8 @@ allow-lan: false
 mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
+clash-for-android:
+  append-system-dns: false
 ipv6: false
 dns:
   enable: true
