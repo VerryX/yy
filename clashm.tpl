@@ -2,7 +2,7 @@ mixed-port: 7890
 allow-lan: false
 mode: Rule
 log-level: info
-ipv6: true
+ipv6: false
 external-controller: 0.0.0.0:9090
 clash-for-android:
   append-system-dns: false
@@ -15,8 +15,6 @@ dns:
     - 119.29.29.29
     - 223.6.6.6
     - 1.2.4.8
-    - 2400:3200::1
-    - 2402:4e00::
   fake-ip-filter:
     - "*.lan"
     - stun.*.*.*
