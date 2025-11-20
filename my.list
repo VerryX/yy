@@ -2,9 +2,9 @@
 DOMAIN-KEYWORD,miui
 DOMAIN-KEYWORD,xiaomi
 DOMAIN-KEYWORD,flurry
-;DOMAIN-KEYWORD,maxthon
 DOMAIN-SUFFIX,expreview.com
-DOMAIN-SUFFIX,818ps.com
-DOMAIN-SUFFIX,tuguaishou.com
-DOMAIN-SUFFIX,tusij.com
+# DOMAIN-SUFFIX,818ps.com
+# DOMAIN-SUFFIX,tuguaishou.com
+# DOMAIN-SUFFIX,tusij.com
 DOMAIN-SUFFIX,cc-api-data.adobe.io
+DOMAIN-SUFFIX,xn--ngstr-lra8j.com
